@@ -108,10 +108,27 @@
 		color: lightgrey;
 	}
 	.mobile_friendly llamas {
-		border: .5em solid black;
+		border: 1em solid black;
 	}		
 	.moblie_friendly fight {
-		border: .5em solid white;
+		border: 1em solid white;
+}	
+	.moblie_friendly p {
+		font-family: 'Times New Roman',Times,serif;
+	}
+}
+@media only screen and (min-width: 900px) {
+		.mobile_friendly #body_fluid {
+		background-color: lightred;
+	}
+	.mobile_friendly h1,h2 {
+		color: grey;
+	}
+	.mobile_friendly llamas {
+		border: 1em solid white;
+	}		
+	.moblie_friendly fight {
+		border: 1em solid black;
 }	
 	.moblie_friendly p {
 		font-family: 'Times New Roman',Times,serif;
