@@ -110,7 +110,10 @@
 	.mobile_friendly llamas {
 		border: .5em solid black;
 	}		
-.moblie_friendly fight {
+	.moblie_friendly fight {
 		border: .5em solid white;
 }	
+	.moblie_friendly p {
+		font-family: 'Times New Roman',Times,serif;
+	}
 }
