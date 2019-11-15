@@ -7,9 +7,9 @@
      background-color: rgb(128,0,0) 
 }
 #body_fluid {
-    background-color: rgb(169, 169, 169)
-	  height: 100%
-		width: 100%
+    background-color: rgb(169, 169, 169);
+	  height: 100%;
+		width: 100%;
 		background-size: cover;
 }
  .hobbies{
@@ -105,3 +105,8 @@
  #box3 {
      background-color: #00FFFF;
 }
+@media only  screen and (min-width: 600px){
+	.mobile_friendly body {
+		background: blue;
+	}
+	
