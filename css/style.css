@@ -91,11 +91,6 @@
  .dashed {
     border-style: dashed;
 }
- .llamas {
-     margin: 0px 0px 0px 750px;
-     margin-left: auto;
-     margin-right: auto;
-}
  #box {
      background-color: #5F9EA0;
 }
@@ -106,13 +101,16 @@
      background-color: #00FFFF;
 }
 @media only screen and (min-width: 600px) {
-	.mobile_friendly body {
-		background: blue;
+	.mobile_friendly #body_fluid {
+		background-color: blue;
 	}
 	.mobile_friendly h1,h2 {
-		color: white;
+		color: lightgrey;
 	}
 	.mobile_friendly llamas {
-		border: .75em solid black;
+		border: .5em solid black;
 	}		
+.moblie_friendly fight {
+		border: .5em solid white;
 }	
+}
