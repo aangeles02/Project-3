@@ -3,9 +3,13 @@
   top:0;
   left:0;
 }
-#maps{
-	background: rgb(34,193,195);
-	background: radial-gradient(circle, rgba(34,193,195,1) 31%, rgba(45,50,253,1) 86%);
+#map{
+  height: 400px;
+  width: 100%; 
+}
+#googlemap{
+	height: 400px;
+	width: 100%
 }
 .index {
      background-color: rgb(128,0,0) 
