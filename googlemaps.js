@@ -22,3 +22,12 @@ function initMap() {
 	
 }
 
+var slides =document.querySelectorAll('#slideshow .slide');
+var currentslide = 0;
+var slideInterval = setinterval(nextSlide, 30000);
+
+function nextSlide(){
+	slides[currentslide].className='slide';
+	currentslide=(currentslide + 1) % slides.length;
+	slides[currentslide].className='slide displayed';
+}
