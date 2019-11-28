@@ -21,3 +21,17 @@ function initMap() {
   transitLayer.setMap(map);
 	
 }
+var slideIndex = 0;
+showSlides();
+function showSlides() {
+	var i;
+	var slides = document.getElementByClassName("mySlides");
+	for (i=0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+}
+ slideInedx++;
+ if(slideIndex > slides.length) {slideIndex =1}
+ slides[slideIndex-1].style.display ="block";
+ setTimeout(showSlides, 3500);
+}
+
