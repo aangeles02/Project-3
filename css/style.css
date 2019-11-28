@@ -142,3 +142,19 @@
 		font-family: 'Times New Roman',Times,serif;
 	}
 }
+/*slideshow */
+.slideshow{
+	max-width:1000px;
+	position:relative;
+	margin:auto;
+	}
+.prev, .next{
+	cursor: pointer;
+	position: absolute;
+	width: auto;
+	margin-top:-22px;
+	top:50%;
+	font-weight:bold;
+	font-size: 16px;
+	user-select: none;
+}	
