@@ -22,9 +22,9 @@ function initMap() {
 	
 }
 
-var slides =document.querySelectorAll('#slideshow .slide');
+var slides = document.querySelectorAll('#slideshow .slide');
 var currentslide = 0;
-var slideInterval = setinterval(nextSlide, 3000);
+var slideInterval = setInterval(nextSlide, 3000);
 
 function nextSlide(){
 	slides[currentslide].className='slide';
