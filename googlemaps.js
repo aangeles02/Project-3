@@ -22,13 +22,3 @@ function initMap() {
 	
 }
 
-var slides = document.querySelectorAll('#slideshow .slide1');
-var currentslide =0;
-var slideinterbal = setInterval(nextSlide, 3000);
-
-function nextSlide() {
-	slideshow[currentslide].className='slide1';
-	currentslide = (currentslide + 1) % slideshow.length;
-	slides[currentslide].className = 'slide2';
-}
-
