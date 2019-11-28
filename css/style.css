@@ -143,17 +143,24 @@
 	}
 }
 /*slideshow */
-#slides {
+#slideshow {
 	position: relative;
 	height:400px;
 	margin: 10px;
 	padding:10px;
 	list-style-type; none;
 }
-.slideshow {
+.slide1 {
 	position: absoulte;
 	top: 0px;
-	left: 0px:
+	left: 0px;
 	height: 100%;
 	width: 100%;
+	opacity: 0;
+}
+.slide2 {
+	opacity:1;
+}
+.slide3 {
+	opacity:1;
 }
